@@ -5,7 +5,7 @@ const cron = require('node-cron');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const POLLING_INTERVAL = '*/5 * * * * *'; 
+const POLLING_INTERVAL = '*/3 * * * * *'; 
 const MAX_HISTORY = 50; 
 const TARGET_API_URL = 'https://hay88bot.com/server/lottery/call';
 const GAME_CODE = "l_taixiuMD5";
